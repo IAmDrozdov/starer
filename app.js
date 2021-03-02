@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(require('./src/routes'));
+require('./src/routes/star')(app);
 
 
 const db = require("./src/models");

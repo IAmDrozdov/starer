@@ -1,0 +1,21 @@
+http://localhost:3000/star
+
+###
+
+http://localhost:3000/star?type=KEK
+
+###
+
+http://localhost:3000/star/1
+
+###
+POST http://localhost:3000/star
+content-type: application/json
+
+{
+    "type": "KEK"
+}
+
+###
+
+DELETE http://localhost:3000/star/2
