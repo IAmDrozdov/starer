@@ -5,7 +5,7 @@ module.exports = sequelize => {
     Star.init({
         type: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
           },
     }, {
         sequelize,

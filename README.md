@@ -10,7 +10,8 @@ npm run start
 
 ## Roadmap
 
-- [ ] MVP that allow predefined admin user to add new users and give them typed stars with base text.
+- [ ] MVP that allow predefined admin user to add new users.
+- [ ] Text and types to stars.
 - [ ] Email notifications
 - [ ] Sorting and filtering of users and stars
 - [ ] Every week summarize starts show something about it.
